@@ -11,9 +11,9 @@
         <td>ID</td>
         <td>Title</td>
       </tr>
-      <tr>
-        <td>1</td>
-        <td>Node fundamentals</td>
+      <tr for (book in data.books)>
+        <td>${book.id}</td>
+        <td>${book.titulo}</td>
       </tr>
     </table>
   </body>
